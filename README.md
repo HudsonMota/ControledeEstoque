@@ -7,13 +7,15 @@ Este Sistema Controle Estoque foi feito com o Framework Laravel 5.5, Bootstrap 3
 - Para instalar esta aplicação.
 
 ```
-git clone https://github.com/puppe1990/ControleEstoque.git
+git clone https://github.com/HudsonMota/ControledeEstoque.git
 ```
 
 - Depois de baixado dentro da pasta use:
-
 ```
-composer update.
+composer install
+```
+```
+composer update
 ```
 
 - Configure seu banco de dados com as suas credenciais no arquivo
