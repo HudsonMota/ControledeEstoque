@@ -9,9 +9,11 @@ git clone https://github.com/HudsonMota/ControledeEstoque.git
 ```
 
 - Depois de baixado dentro da pasta use:
+
 ```
 composer install
 ```
+
 ```
 composer update
 ```
