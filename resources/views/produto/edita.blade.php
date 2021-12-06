@@ -75,14 +75,6 @@
                 </div>
             </div>
 
-
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="categoria">QR Code</label>
-                <div class="col-md-4">
-                    {!! QrCode::size(150)->generate('https://controle-de-estoque9.cms.webnode.com/' . $p->id_produto) !!}
-                </div>
-            </div>
-
             <div class="form-group">
                 <label class="col-md-4 control-label" for="categoria">Foto Atual</label>
                 <div class="col-md-4">

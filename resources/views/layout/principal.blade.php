@@ -104,15 +104,6 @@
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" id="dropStyle" data-toggle="dropdown" role="button"
-                            aria-haspopup="true" aria-expanded="false">Relatórios <span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu" id="dropMenuStyle">
-                            <li><a href="{{ route('Listar Relatorios') }}" id="menuStyle" id="menuStyle">Listar
-                                    Relatorios</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" id="dropStyle" data-toggle="dropdown" role="button"
                             aria-haspopup="true" aria-expanded="false">Fornecedores <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" id="dropMenuStyle">

@@ -1,4 +1,4 @@
-# Controle de Estoque para lojas de roupas.
+# Controle de Estoque.
 
 Com cadastro de roupas, categorias, lançamento de entrada e controle de saída, cadastro de clientes e fornecedores, controle e cadastro de vendas, geração de relatórios com filtro por data.
 

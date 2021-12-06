@@ -57,10 +57,7 @@
                                 <div class="col-lg-8 offset-lg-4">
                                     <button type="submit" class="btn btn-primary">
                                         Entrar
-                                    </button> &nbsp;&nbsp;
-                                    <a class="btn btn-info" href="{{ route('password.request') }}">
-                                        Esqueceu sua senha?
-                                    </a>
+                                    </button>
 
                                 </div>
                             </div>

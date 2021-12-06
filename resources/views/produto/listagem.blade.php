@@ -29,7 +29,6 @@
                     <th>Total</th>
                     <th>Editar</th>
                     <th>Excluir</th>
-                    <th>QR Code</th>
                 </tr>
             </thead>
             <tbody>
@@ -49,7 +48,6 @@
                                     class="glyphicon glyphicon-pencil"></span></a></td>
                         <td><a href="/Produtos/remove/{{ $p->id_produto }}"><span
                                     class="glyphicon glyphicon-trash"></span></a></td>
-                        <td>{!! QrCode::size(90)->generate('https://controle-de-estoque9.cms.webnode.com/' . $p->id_produto) !!}</td>
                     </tr>
                 @endforeach
             </tbody>

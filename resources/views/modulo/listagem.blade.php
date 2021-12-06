@@ -69,9 +69,12 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail">
-                    <h2>Relatório</h2>
+                    <h2>Fornecedores</h2>
                     <div class="caption">
-                        <li class="list-group-item"><a href="{{ route('Listar Relatorios') }}">Listar Relatorios</a></li>
+                        <li class="list-group-item"><a href="{{ route('Listar Fornecedores') }}">Listar Fornecedores</a>
+                        </li>
+                        <li class="list-group-item"><a href="{{ route('Cadastrar Fornecedor') }}">Cadastrar
+                                Fornecedor</a></li>
                     </div>
                 </div>
             </div>

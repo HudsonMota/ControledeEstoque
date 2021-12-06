@@ -74,10 +74,6 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::post('/LancarSaida/adiciona','SaidaController@adiciona');
 	Route::post('/LancarSaida/edita/{id_saida}','SaidaController@edita');
 
-	//Relatórios
-	Route::get('/ListarRelatorio','RelatorioController@novo')->name('Listar Relatorios');
-	Route::post('/ListarRelatorio/mostrar/','RelatorioController@mostra');
-
 	//Clientes
 	Route::get('/ListarCliente','ClienteController@listar')->name('Listar Clientes');
 	Route::get('/ListarCliente/remove/{id_cliente}','ClienteController@remove');
